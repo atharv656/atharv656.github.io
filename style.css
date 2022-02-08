@@ -1,0 +1,79 @@
+.navbar ul {
+  height: auto;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border: 2px solid #2E2F2F;
+  background-color: #97D8B2;
+  /* background-color: #F4796B; */
+  -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navbar li{
+  float: left;
+  border-right: 1px solid #2E2F2F;
+}
+
+.navbar li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 2vh 4vw;
+  text-decoration: none;
+}
+
+.navbar li a:hover{
+  /* background-color: #FFC15E; */
+  background-color: #FFC15E;
+}
+
+.banner {
+  height: 80vh;
+  padding-top: 10vh;
+  /* background-color: #437C90; */
+  background-color: #F4796B;
+  /* background-color: #97D8B2; */
+  /* background-color: #FFC15E; */
+  border: 2px solid #2E2F2F;
+  border-top: 1px solid #2E2F2F;
+  border-bottom: 1px solid #2E2F2F;
+}
+
+body {
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.pfp {
+  height : 40vh;
+  border-radius: 15%;
+  display : block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name {
+  height : 5vh;
+}
+
+#About {
+  background-color: #437C90;
+  border: 2px solid #2E2F2F;
+  border-top: 1px solid #2E2F2F;
+  border-bottom: 1px solid #2E2F2F;
+}
+#Portfolio {
+  background-color: #437C90;
+  border: 2px solid #2E2F2F;
+  border-top: 1px solid #2E2F2F;
+  border-bottom: 1px solid #2E2F2F;
+}
