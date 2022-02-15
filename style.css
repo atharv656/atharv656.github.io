@@ -9,9 +9,7 @@
   top: 0;
   width: 100%;
   border: 2px solid #2E2F2F;
-  background-color: #D0E1D4;
-  /* background-color: #97D8B2; */
-  /* background-color: #F4796B; */
+  background-color: #FE938C;
   -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -27,26 +25,24 @@
   display: block;
   color: black;
   text-align: center;
-  padding: 2vh 4vw;
   text-decoration: none;
+  padding: 2vh 4vw;
 }
 
 .navbar li a:hover{
-  /* background-color: #FFC15E; */
   background-color: #F2F6D0;
 }
 
 .banner {
   height: 80vh;
   padding-top: 10vh;
-  /* background-color: #437C90; */
-  /* background-color: #F4796B; */
   background-color: #F2F6D0;
-  /* background-color: #97D8B2; */
-  /* background-color: #FFC15E; */
   border: 2px solid #2E2F2F;
   border-top: 1px solid #2E2F2F;
   border-bottom: 1px solid #2E2F2F;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
 html {
@@ -61,30 +57,23 @@ body {
 }
 
 .pfp {
-  width : 25%;
-  /* display: block; */
-  /* margin-top: 2.5%; */
-  /* margin-right: auto;
-  margin-bottom: auto; */
+  /* width : 25%; */
+  height: 69vh; /*nice*/
   border-radius: 15%;
   float: left;
-  margin-left: 4%;
-  margin-top: 2.5%;
+  display: inline-block;
+  margin-left: 3.5%;
+  /* margin-top: 2.5%; */
   border: 1px solid #2E2F2F;
-
-  /*display : block;
-  margin-left: auto;
-  margin-right: auto; */
 }
 
 .introContainer {
-  width: 55%;
+  width: 50%;
+  padding-left: 10%;
   display: inline-block;
   font-size: 3em;
-  /* font-weight: bold; */
   position: relative;
   overflow: hidden;
-  padding-left: 15%;
 }
 
 .first {
@@ -102,7 +91,6 @@ body {
   color: #087E8B;
   animation: slide 10s infinite;
 }
-
 
 @keyframes slide {
   0% {
@@ -125,41 +113,107 @@ body {
   }
 }
 
+.container {
+  height: auto;
+  margin-top: 3%;
 
-#About {
+  position: absolute;
+}
+
+#BriefAbout {
   display: inline-block;
   float: center;
-  margin-top: 2%;
+  /* padding-bottom: 4%; */
+  margin-bottom: inherit;
+  padding-bottom: auto;
+  width: 50%;
+  margin-top: 1%;
   padding-left: 5%;
   padding-right: 5%;
-  width: 50%;
-  height: 71%;
+  padding-bottom: 0.5%;
+  margin-bottom: auto;
+  /* width: 50%;
+  height: 71%; */
   text-align: left;
-  /* padding-right: 50%; */
-  /* padding-bottom: 20%; */
-  /* text-align: */
   border-radius: 20px;
   background-color: #D0E1D4;
   border: 1px solid #2E2F2F;
-
-  /* border: 2px solid #2E2F2F; */
-  /* border-top: 1px solid #2E2F2F; */
-  /* border-bottom: 1px solid #2E2F2F; */
 }
 
-#About > h1 {
-  text-indent: 1em;
-}
-
-#About > p {
+#BriefAbout > p {
   font-size: larger;
-  line-height: 1.5em;
+  line-height: 1.75em;
+  margin-top: 1.75em;
+}
+
+#BriefAbout > p > a {
+  color: #087E8B;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* .hidden {
+  visibility: hidden;
+} */
+
+#Atharv {
+  /* visibility: visible; */
+  z-index: ;
+}
+
+#AtharvLink:hover ~ #Atharv{
+  /* visibility: visible; */
+  background-color: green;
+}
+#AtharvLink:hover {
+  background-color: green;
+}
+
+#invis {visibility: hidden;}
+.test a:hover ~ #invis{visibility: visible;}
+.test a:hover {background-color: green;}
+
+.innerBanner {
+  display: inline-block;
+  float: center;
+  margin-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 80%;
+  height: 70%;
+  text-align: left;
+  border-radius: 20px;
+  background-color: #D0E1D4;
+  border: 1px solid #2E2F2F;
 }
 
 #Portfolio {
   /* margin-top: 200px; */
-  background-color: #437C90;
+  background-color: #D0E1D4;
   border: 2px solid #2E2F2F;
   border-top: 1px solid #2E2F2F;
   border-bottom: 1px solid #2E2F2F;
+}
+
+#AboutMe {
+  line-height: 2em;
+  width: 50%
+}
+
+#ContactMe ul{
+  list-style: none;
+  line-height: 3em;
+}
+
+#ContactMe h2 {
+  text-decoration: underline;
+}
+
+#ContactMe span {
+  margin-left: 2.5%;
+}
+
+#ContactMe a {
+  text-decoration: none;
+  color: inherit;
 }
