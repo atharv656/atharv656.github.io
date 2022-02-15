@@ -70,6 +70,8 @@ body {
   float: left;
   margin-left: 4%;
   margin-top: 2.5%;
+  border: 1px solid #2E2F2F;
+
   /*display : block;
   margin-left: auto;
   margin-right: auto; */
@@ -121,17 +123,39 @@ body {
   100% {
     top: 0;
   }
+}
 
 
 #About {
-  float: left;
+  display: inline-block;
+  float: center;
+  margin-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 50%;
+  height: 71%;
+  text-align: left;
+  /* padding-right: 50%; */
+  /* padding-bottom: 20%; */
   /* text-align: */
-  /* background-color: #437C90; */
-  border: 2px solid red;
+  border-radius: 20px;
+  background-color: #D0E1D4;
+  border: 1px solid #2E2F2F;
+
   /* border: 2px solid #2E2F2F; */
   /* border-top: 1px solid #2E2F2F; */
   /* border-bottom: 1px solid #2E2F2F; */
 }
+
+#About > h1 {
+  text-indent: 1em;
+}
+
+#About > p {
+  font-size: larger;
+  line-height: 1.5em;
+}
+
 #Portfolio {
   /* margin-top: 200px; */
   background-color: #437C90;
