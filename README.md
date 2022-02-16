@@ -1,5 +1,5 @@
 # atharv656.github.io
-This website is also viewable at atharvagashe.com
+This website is also viewable at [atharvagashe.com](atharvagashe.com)
 
 # The Inspiration
 This is my first website built from scratch! I first fell in love with programming when my brother open the inspect tab element and show me the code behind my favorite game (to help me get beat the pesky level I was stuck on). Seeing that code could transform into a game accessible on the internet for anyone to play was something magical for me, and ever since that moment I've been trying to teach myself code. I ended up learning python and java to tinker with RaspberryPi and arduino projects and eventually robotics in highschool. The best part of it is that every time I finish a project, I relive the experience of whimsy and joy I had as a child — seeing ideas turn to reality truly is amazing.
