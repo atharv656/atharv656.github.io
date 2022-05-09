@@ -1,0 +1,233 @@
+.navbar ul {
+  height: auto;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  border: 2px solid #2E2F2F;
+  background-color: #FE938C;
+  -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navbar li{
+  float: left;
+  border-right: 1px solid #2E2F2F;
+}
+
+.navbar li a{
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 2vh 4vw;
+}
+
+.navbar li a:hover{
+  background-color: #F2F6D0;
+}
+
+.banner {
+  padding-top: 10vh;
+  background-color: #F2F6D0;
+  border: 2px solid #2E2F2F;
+  border-top: 1px solid #2E2F2F;
+  border-bottom: 1px solid #2E2F2F;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.pfp {
+  height: 69vh; /*nice*/
+  /* width: 26vw; */
+  border-radius: 15%;
+  float: left;
+  display: inline-block;
+  margin-left: 3.5vw;
+  border: 1px solid #2E2F2F;
+}
+
+.introContainer {
+  width: 50vw;
+  padding-left: 10vw;
+  display: inline-block;
+  font-size: 3em;
+  position: relative;
+  overflow: hidden;
+}
+
+.first {
+  display: inline-block;
+  float: left;
+  color: #2E1E0F;
+}
+
+#second {
+  font-weight: bold;
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+  padding-left: 0.75em;
+  color: #087E8B;
+  animation: slide 10s infinite;
+}
+
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+  10% {
+    top: 0;
+  }
+  35% {
+    top: -1.125em;
+  }
+  60% {
+    top: -2.25em;
+  }
+  85% {
+    top: -3.375em;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.container {
+  height: auto;
+  margin-top: 3%;
+
+  position: absolute;
+}
+
+#BriefAbout {
+  display: inline-block;
+  float: center;
+  /* padding-bottom: 4%; */
+  margin-bottom: inherit;
+  padding-bottom: auto;
+  width: 50vw;
+  margin-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 0.5%;
+  margin-bottom: auto;
+  /* width: 50%;
+  height: 71%; */
+  text-align: left;
+  border-radius: 20px;
+  background-color: #D0E1D4;
+  border: 1px solid #2E2F2F;
+}
+
+#BriefAbout > p {
+  font-size: larger;
+  line-height: 1.75em;
+  margin-top: 1.75em;
+}
+
+#BriefAbout > p > a {
+  color: #087E8B;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* .hidden {
+  visibility: hidden;
+} */
+
+#Atharv {
+  /* visibility: visible; */
+  z-index: ;
+}
+
+#AtharvLink:hover ~ #Atharv{
+  /* visibility: visible; */
+  background-color: green;
+}
+#AtharvLink:hover {
+  background-color: green;
+}
+
+#invis {visibility: hidden;}
+.test a:hover ~ #invis{visibility: visible;}
+.test a:hover {background-color: green;}
+
+.innerBanner {
+  display: inline-block;
+  float: center;
+  margin-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 80vw;
+  height: auto;
+  text-align: left;
+  border-radius: 20px;
+  background-color: #D0E1D4;
+  border: 1px solid #2E2F2F;
+}
+
+#Portfolio {
+  /* margin-top: 200px; */
+  background-color: #D0E1D4;
+  border: 2px solid #2E2F2F;
+  border-top: 1px solid #2E2F2F;
+  border-bottom: 1px solid #2E2F2F;
+}
+
+#Portfolio ul {
+  list-style: none;
+}
+
+#Portfolio li a {
+  text-decoration: none;
+  color: #087E8B;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#Portfolio li p {
+  margin-left: 3em;
+  /* width: 70% */
+}
+
+#AboutMe {
+  line-height: 2em;
+  width: 50%
+}
+
+#ContactMe ul{
+  list-style: none;
+  line-height: 3em;
+}
+
+#ContactMe h2 {
+  text-decoration: underline;
+}
+
+#ContactMe span {
+  margin-left: 2.5%;
+}
+
+#ContactMe a {
+  text-decoration: none;
+  color: inherit;
+}
