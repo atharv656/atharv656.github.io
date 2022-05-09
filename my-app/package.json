@@ -1,5 +1,5 @@
 {
-  "homepage": "https://atharv656.github.io",
+  "homepage": "https://atharv656.github.io/my-app",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "clean" : "gh-pages-clean",
+    "clean": "gh-pages-clean",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
