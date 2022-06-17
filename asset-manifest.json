@@ -1,21 +1,21 @@
 {
-  "main.css": "/static/css/main.8019524b.chunk.css",
-  "main.js": "/static/js/main.3ab097b0.chunk.js",
-  "main.js.map": "/static/js/main.3ab097b0.chunk.js.map",
-  "static/js/1.3c432894.chunk.js": "/static/js/1.3c432894.chunk.js",
-  "static/js/1.3c432894.chunk.js.map": "/static/js/1.3c432894.chunk.js.map",
-  "static/js/2.8c0fd19d.chunk.js": "/static/js/2.8c0fd19d.chunk.js",
-  "static/js/2.8c0fd19d.chunk.js.map": "/static/js/2.8c0fd19d.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.c472360a.js",
-  "runtime~main.js.map": "/static/js/runtime~main.c472360a.js.map",
-  "static/media/ArbBotPic.png": "/static/media/ArbBotPic.8f8fe538.png",
-  "static/media/final.jpeg": "/static/media/final.e1abee42.jpeg",
-  "static/media/DartyLogo.png": "/static/media/DartyLogo.6057c16f.png",
-  "static/media/Developer.png": "/static/media/Developer.cf967c09.png",
-  "static/media/Resume.pdf": "/static/media/Resume.157a77ec.pdf",
-  "static/media/index.css": "/static/media/Alata-Regular.ef90e022.ttf",
-  "static/css/main.8019524b.chunk.css.map": "/static/css/main.8019524b.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.3bd6200193ec92eb026873bcb0fe5c57.js": "/precache-manifest.3bd6200193ec92eb026873bcb0fe5c57.js",
-  "service-worker.js": "/service-worker.js"
+  "files": {
+    "main.css": "/static/css/main.8002d27a.css",
+    "main.js": "/static/js/main.565da297.js",
+    "static/js/787.86e442ec.chunk.js": "/static/js/787.86e442ec.chunk.js",
+    "static/media/final.jpeg": "/static/media/final.c4448a8fdc80c5f90a9e.jpeg",
+    "static/media/Resume.pdf": "/static/media/Resume.3adf6c772541ceb60e95.pdf",
+    "static/media/ArbBotPic.png": "/static/media/ArbBotPic.7d7f9ad0ca64a3f8c0f0.png",
+    "static/media/Alata-Regular.ttf": "/static/media/Alata-Regular.a90e0970a7aca7d36f95.ttf",
+    "static/media/DartyLogo.png": "/static/media/DartyLogo.ceaa89a1a0e29ac34cd1.png",
+    "static/media/Developer.png": "/static/media/Developer.8589272e03d9a0998e5b.png",
+    "index.html": "/index.html",
+    "main.8002d27a.css.map": "/static/css/main.8002d27a.css.map",
+    "main.565da297.js.map": "/static/js/main.565da297.js.map",
+    "787.86e442ec.chunk.js.map": "/static/js/787.86e442ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8002d27a.css",
+    "static/js/main.565da297.js"
+  ]
 }
