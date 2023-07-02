@@ -81,7 +81,7 @@ class AboutMePage extends React.Component {
       }
 
     render() {
-        const student = "Attending Dartmouth College, Class of 2025. Double majoring in Computer Science and Computational Linguistics.";
+        const student = "Attending Dartmouth College, Class of 2025. Double majoring in Computer Science and Mathematics.";
         const web3 = "After being introduced to crypto in 2017, I've been fascinated with decentralization and Web3.0 as a whole. Since then I've built bots that scrape smart contracts, written my own smart contracts, and co-founded the Dartmouth Blockchain club.";
         const developer = "I love building websites (ReactJS + TailwindCSS) and hacking together projects (mainly in Java and Python). Check out the featured Arbitrage Bot and other projects on my Github!";
         const designer = "My newest hobby—I love creating with elegant, purposeful design. Take a look at some of my work here.";

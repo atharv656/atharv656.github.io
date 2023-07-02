@@ -40,7 +40,7 @@ class PortfolioComponent extends React.Component {
         return(
             <div className="group pb-10 snap-center" ref={this.props.reference}>
                 <div className="inline-block align-middle w-[70%] px-[10%]">
-                    <h1 className="sm:text-3xl text-xl sm:pb-5 pb-2 opacity-100">{this.props.title}</h1>
+                    <h1 className="sm:text-3xl text-xl xl:opacity-25 sm:pb-5 pb-2">{this.props.title}</h1>
                     <p className="sm:text-xl text-sm xl:opacity-10">{this.props.description}</p>
                 </div>
                 <img src={this.props.src} alt="" className="inline-block align-middle w-[30%] pr-[5%] xl:opacity-25"></img>
