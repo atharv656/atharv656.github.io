@@ -1,24 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.4099ba24.css",
-    "main.js": "/static/js/main.c0de22c5.js",
+    "main.css": "/static/css/main.9379bded.css",
+    "main.js": "/static/js/main.b500c072.js",
     "static/js/787.86e442ec.chunk.js": "/static/js/787.86e442ec.chunk.js",
-    "static/media/blurSuit.png": "/static/media/blurSuit.d3f8ece210622660577c.png",
-    "static/media/legacyLogo2.png": "/static/media/legacyLogo2.50a8b2e77ca8b667da64.png",
-    "static/media/Resume.pdf": "/static/media/Resume.087b5b724311d16c1fdf.pdf",
-    "static/media/ArbBotPic.png": "/static/media/ArbBotPic.7d7f9ad0ca64a3f8c0f0.png",
+    "static/media/pfp.png": "/static/media/pfp.49d1488043dca581ddb9.png",
+    "static/media/Resume.pdf": "/static/media/Resume.2fdb24ff48363df8c503.pdf",
     "static/media/Alata-Regular.ttf": "/static/media/Alata-Regular.a90e0970a7aca7d36f95.ttf",
-    "static/media/designLogo.png": "/static/media/designLogo.c0d72cfb43be1d02f00b.png",
-    "static/media/DartyLogo.png": "/static/media/DartyLogo.ceaa89a1a0e29ac34cd1.png",
-    "static/media/devLogo2.png": "/static/media/devLogo2.e00ef3e90b0d7f8f45b4.png",
-    "static/media/lock2.png": "/static/media/lock2.d4cbc43758163b88dc61.png",
     "index.html": "/index.html",
-    "main.4099ba24.css.map": "/static/css/main.4099ba24.css.map",
-    "main.c0de22c5.js.map": "/static/js/main.c0de22c5.js.map",
+    "main.9379bded.css.map": "/static/css/main.9379bded.css.map",
+    "main.b500c072.js.map": "/static/js/main.b500c072.js.map",
     "787.86e442ec.chunk.js.map": "/static/js/787.86e442ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4099ba24.css",
-    "static/js/main.c0de22c5.js"
+    "static/css/main.9379bded.css",
+    "static/js/main.b500c072.js"
   ]
 }
